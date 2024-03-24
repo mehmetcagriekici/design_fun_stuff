@@ -1,0 +1,11 @@
+//mixin to assign sizes
+//change any attribute depending on the screen size.
+//add new attributes to the maps in the variables file.
+//following the pattern.
+//media map should only deal with screen size
+//attributes map should have the same key, but can represent any attribute as its value
+@mixin assign-media($attr, $val) {
+  @media #{map-get($map: $mediaMap, $key: $attr)} {
+    #{map-get($map: $attrMap, $key: $attr)}: $val;
+  }
+}
