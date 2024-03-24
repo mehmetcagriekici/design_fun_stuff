@@ -1,1 +1,2 @@
 Gradient idea is from this link. "https://www.joshwcomeau.com/react/rainbow-button/", For a better and real animated gradient you should use that link. Mine is just a simpler ajustment of this "https://www.joshwcomeau.com/react/rainbow-button/".
+For media queries this link shares a lot of ideas and a good conclusion, "https://css-tricks.com/approaches-media-queries-sass/" also where I got the idea. 
